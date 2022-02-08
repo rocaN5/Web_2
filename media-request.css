@@ -1,0 +1,397 @@
+@media screen and (max-width: 1024px)
+{
+	/* ••• Header ••• */
+
+	.main-header
+	{
+		display: none;
+	}
+
+	.header-adapt-menu
+	{
+		display: flex;
+	}
+
+	.adapt-1
+	{
+		display: flex;
+		z-index: 99999;
+		background-image: url("img/main-content/bg-tile.gif")
+	}
+
+	.adapt-2
+	{
+		display: none;
+	}
+
+	/* ••• Header END ••• */
+
+	/* ••• Main cotnent ••• */
+
+	.main-content-h1
+	{
+		font-size: 68px;
+	}
+
+	.main-content-h1-decoration
+	{
+		width: 826px;
+	    height: 44px;
+	    left: calc(50% - 413px);
+	    background-position: 0 0;
+	    background-size: 827px 44px;
+	}
+
+	.main-content-h1-decoration span
+	{
+		width: 24px;
+	    height: 34px;
+		left: calc(50% - 294px);
+	    background-position: 0 0;
+	    background-size: 588px 34px;
+	}
+
+	.main-content-h2
+	{
+		font-size: 32px;
+	}
+
+	.story-margin
+	{
+		display: block;
+	}
+
+	.story-media-2nd-line
+	{
+		display: flex;
+	    margin-top: 50px;
+	    margin-bottom: 50px;
+	    margin-left: calc(60% - 395px);
+	}
+
+	.main-content-p-story
+	{
+		width: auto;
+		font-size: 16px;
+	}
+
+	.main-content-h3
+	{
+		margin-top: 10px;
+		font-size: 26px;
+	}
+
+	.main-content-h3 span
+	{
+		font-size: 28px;
+		margin-top: 14px;
+	}
+
+	.main-news-h1
+	{
+		font-size: 38px;
+		text-align: center;
+	}
+
+	.news-content
+	{
+		width: 545px;
+		display: block;
+    	position: relative;
+    	left: calc(50% - 272.5px);
+	}
+
+	.news-text-content
+	{
+	    width: 374px;
+	    position: relative;
+	    left: calc(50% - 187px);
+	}
+
+	.news-content-img
+	{
+		left: calc(50% - 264px);
+	}
+
+	/* ••• Main cotnent END ••• */
+
+	/* ••• Footer ••• */
+
+	#footer-coded-by-link-info
+	{
+		left: -20.5em;
+	}
+
+	/* ••• Footer END ••• */
+}
+
+@media screen and (max-width: 876px) 
+{
+	.main-content-h2
+	{
+		width: 420px;
+    	transition: 400ms;
+    	text-align: center;
+    	position: relative;
+    	left: calc(50% - 210px);
+	}
+
+	.main-content-p-story
+	{
+		width: 470px;
+	    font-size: 16px;
+	    transition: 400ms;
+	    text-align: center;
+	    left: calc(50% - 210px);
+	}
+}
+
+
+@media screen and (max-width: 780px)
+{
+	.footer-main
+	{
+		display: none;
+	}
+
+	.footer-media
+	{
+		display: block;
+	}
+
+	.second-line
+	{
+		margin: 0px 0px 40px 0px;
+	}
+}
+
+@media screen and (max-width: 770px)
+{
+	.container-img-truck
+	{
+		top: 20px;
+	    width: 650px;
+	    height: 300px;
+	    padding: 20px;
+		transition: 400ms;
+	    position: relative;
+	    left: calc(50% - 325px);
+	    background-position: 0 0;
+	    background-size: 650px 300px;
+	    background-repeat: no-repeat;
+	    background-image: url(img/image-container/donut-shoppe.png);
+	}
+	
+	.container-img-label
+	{
+		top: 54px;
+	    width: 100px;
+	    height: 125px;
+	    transition: 400ms;
+	    position: absolute;
+	    right: calc(50% - 325px);
+	    background-position: 0 0;
+	    background-size: 100px 125px;
+	    background-repeat: no-repeat;
+	    background-image: url(img/image-container/fresh-whole-ingredients.png);
+	}
+
+	.second-line
+	{
+		margin: 0px 0px 40px 0px;
+	}
+}
+
+@media screen and (max-width: 700px)
+{
+	.adapt-1
+	{
+		display: none;
+	}
+
+	.adapt-2
+	{
+		z-index: 999;
+	    display: block;
+	    background-image: url(img/main-content/bg-tile.gif);
+	}
+
+	.container-img-truck
+	{
+		top: 20px;
+	    width: 580px;
+	    height: 280px;
+	    padding: 20px;
+	    transition: 400ms;
+	    position: relative;
+	    left: calc(50% - 290px);
+	    background-position: 0 0;
+	    background-size: 580px 280px;
+	    background-repeat: no-repeat;
+	    background-image: url(img/image-container/donut-shoppe.png);
+	}
+
+	.container-img-label
+	{
+		top: 74px;
+	    width: 75px;
+	    height: 100px;
+	    transition: 400ms;
+	    position: absolute;
+	    right: calc(50% - 295px);
+	    background-position: 0 0;
+	    background-size: 75px 100px;
+	    background-repeat: no-repeat;
+	    background-image: url(img/image-container/fresh-whole-ingredients.png);
+	}
+}
+
+@media screen and (max-width: 610px)
+{
+	.image-container
+	{
+		padding-top: 20px;
+	}
+	
+	.container-img-truck
+	{
+		width: 580px;
+		height: 280px;
+		padding: 0px;
+		left: calc(50% - 250px);
+		background-size: 500px 240px;
+	}
+	
+	.container-img-label
+	{
+		top: 30px;
+		width: 55px;
+		height: 75px;
+		right: calc(50% - 252px);
+		background-size: 55px 75px;
+	}
+	
+	.main-content-h1-decoration
+	{
+		width: 482px;
+		height: 44px;
+		left: calc(50% - 241px);
+	}
+	
+	.main-content-h1-decoration span
+	{
+		width: 20px;
+		height: 32px;
+		left: auto;
+		background-position: 0 0;
+		background-size: 518px 32px;
+	}
+	
+	.main-content-h2
+	{
+		width: 420px;
+		transition: 400ms;
+		text-align: center;
+		position: relative;
+		left: calc(50% - 210px);
+		margin: 20px 0px 20px 0px;
+	}
+	
+	.main-content-p-story
+	{
+		left: calc(50% - 235px);
+	}
+	
+	.story-media-2nd-line
+	{
+		display: block;
+	}
+	
+	.story-margin img
+	{
+		width: 110px;
+		height: 92px;
+		margin-left: 0;
+		margin-top: 20px;
+		left: calc(50% - 80px);
+		position: relative;
+	}
+	
+	.main-content-h3
+	{
+		width: 440px;
+		font-size: 26px;
+		position: relative;
+		text-align: center;
+		left: calc(50% - 250px);
+		margin: 10px 0px 10px 0px;
+	}
+	
+	.main-content-info-cut-line
+	{
+		margin: 80px 0px 10px 0px;
+	}
+
+	.second-line
+	{
+		margin: 0px 0px 40px 0px;
+	}
+}
+
+@media screen and (max-width: 560px)
+{
+	.container-img-truck
+	{
+	    width: 440px;
+	    height: 210px;
+	    padding-bottom: 50px;
+	    left: calc(50% - 220px);
+	    background-size: 440px 210px;
+	}
+
+	.container-img-label 
+	{
+	    top: 30px;
+	    width: 55px;
+	    height: 75px;
+	    right: calc(50% - 232px);
+	    background-size: 45px 65px;
+	}
+
+	.news-content-img 
+	{
+	    width: 428px;
+	    height: 310px;
+	    left: calc(50% - 214px);
+	}
+
+	.main-content-h1 
+	{
+    	font-size: 58px;
+    }
+
+    .main-content-h1-decoration
+    {
+	    width: 432px;
+	    height: 44px;
+	    left: calc(50% - 216px);
+	}
+
+	.main-content-h1-decoration span
+	{
+	    width: 18px;
+	    height: 22px;
+	    left: auto;
+	    background-position: 0 0;
+	    background-size: 450px 22px;
+	}
+
+	.main-content-p-story
+	{
+	    width: 418px;
+	    font-size: 16px;
+	    transition: 400ms;
+	    text-align: center;
+	    left: calc(50% - 210px);
+	}
+}
