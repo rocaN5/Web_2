@@ -12,6 +12,11 @@
 		display: flex;
 	}
 
+	.header-under-adapt
+	{
+		display: block;
+	}
+
 	.adapt-1
 	{
 		display: flex;
